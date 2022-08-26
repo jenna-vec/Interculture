@@ -10,11 +10,12 @@
     font-family: 'PT Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #a2a6a8;
+    background-image: url(img/full-background.png);
+    background-size: cover;
   }
   
   span, h1, h2, h3, h4, p, a, button {
-    color: #362b2b;
+    color: white;
     margin-block-end: 0;
     margin-block-start: 0; 
   }
@@ -68,4 +69,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.title-name {
+  width: 60vw;
 }
