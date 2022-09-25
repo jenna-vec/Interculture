@@ -26,42 +26,53 @@
 
   
   button {
-    appearance: unset;
-    color:transparent;
-    display: inline-block;
-    background-color: transparent;
-    height: 2em;
-    margin: 0em;
-    border: none;
+    width: fit-content;
+    height: fit-content;
+    border: 1pt solid white;
+    background-color: #133344;
+    border-radius: 7pt;
+    padding: 4pt 8pt;
+    color: white;
     cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #798e99a8;
+  }
+
+  button:active {
+    box-shadow: rgb(255 255 255 / 10%) 0px 3px 9px;
   }
   
   input {
     width: 165pt;
-    height: 29pt;
-    border: none;
-    border-radius: 11pt;
+    height: fit-content;
+    border: 1pt solid white;
+    background-color: transparent;
+    border-radius: 7pt;
+    padding: 8pt;
+    color: white;
   }
   
   input::placeholder {
-    color: #362b2b;
+    color: #c1baba;
     justify-content: center;
   }
   
   input:focus, textarea:focus {
     outline: none;
-    background-color: transparent;
+    box-shadow: rgb(255 255 255 / 25%) 0px 50px 100px -20px, rgb(255 255 255 / 30%) 0px 30px 60px -30px, rgb(255 255 255 / 35%) 0px -2px 6px 0px inset;
   }
   
   select:focus {
-    outline: 3px #362b2b;
+    outline: 3px white;
   }
   
   select {
     height: fit-content;
     border: none;
     border-radius: 4px;
-    color: #362b2b;
+    color: white;
   }
 
 /*Menu Bar*/
@@ -71,12 +82,14 @@
   height: 40px;
   display: flex;
   justify-content: flex-end;
+  margin-top: 1em;
 }
 
 .menu-items {
   display: flex;
   padding: 20px;
   align-items: center;
+  grid-gap: 1.5em;
 }
 
 .main-nav {
@@ -89,13 +102,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
   flex-direction: column;
   gap: 3vh;
 }
 
 .title-name {
   width: 60vw;
+}
+
+/* CONTACT PAGE */
+.subscribe {
+  height: 60vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1em 0;
+  grid-gap: 1em;
+}
+
+#email {
+  font-size: 14px;
+  display: flex;
+  grid-gap: 1em;
+  padding: 1em 0;
 }
 
 /*Footer*/
@@ -129,6 +166,10 @@ footer {
 
 .smaller {
   font-size: smaller;
+}
+
+.svg-icon {
+  width: 14px;
 }
 
 /*larger sizes*/
