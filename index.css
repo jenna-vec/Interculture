@@ -57,6 +57,7 @@
   input::placeholder {
     color: #c1baba;
     justify-content: center;
+    font-size: medium;
   }
   
   input:focus, textarea:focus {
@@ -114,10 +115,10 @@
 /* CONTACT PAGE */
 .subscribe {
   height: 60vh;
-  width: 50vw;
+  width: 80vw;
   display: flex;
   flex-direction: column;
-  padding: 3em;
+  padding: 3em 10vw;
 }
 
 #form {
@@ -129,7 +130,7 @@
 }
 
 #email {
-  font-size: 14px;
+  font-size: medium;
   display: flex;
   grid-gap: 1em;
   padding: 1em 0;
