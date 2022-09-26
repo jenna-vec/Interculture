@@ -29,6 +29,7 @@
   button {
     width: fit-content;
     height: fit-content;
+    font-size: initial;
     border: 1pt solid white;
     background-color: #133344;
     border-radius: 7pt;
@@ -184,7 +185,7 @@
   background: white;
   border-radius: 3px;
   z-index: 1;
-  transform-origin: 4px 0px;
+  transform-origin: right;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
@@ -200,28 +201,26 @@
 
 #menuToggle input:checked ~ span {
   opacity: 1;
-  transform: rotate(45deg) translate(-1px, -9px);
+  transform: rotate(45deg) translate(15px, 10px);
   background: white;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+  transform: scaleX(0.5);
 }
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
-  transform: rotate(135deg) translate(-38px, 0px);
+  transform: rotate(-45deg) translate(7px, 11px);
 }
 
 #menu {
   width: fit-content;
-  margin-top: 1em;
-  padding: 1.2em 4em 0.8em 3em;
-  box-shadow: rgb(255 255 255 / 25%) 0px 50px 49px -20px inset, 
-              rgb(255 255 255 / 23%) 0px 30px 49px -30px inset, 
-              rgb(255 255 255 / 25%) 0px -2px 6px 0px inset;
+  margin-top: 1.5em;
+  padding: 1.5em 3em 1.5em 3em;
+  box-shadow: rgb(255 255 255 / 25%) 0px 50px 49px -20px inset, rgb(255 255 255 / 23%) 0px 30px 49px -30px inset, rgb(255 255 255 / 25%) 0px -2px 6px 0px inset;
   background-image: url(img/full-background.png);
-  background-size: cover;
+  background-size: 226%;
   border: 1pt solid white;
   border-radius: 0.4em;
   text-align: end;
@@ -233,7 +232,7 @@
 }
 
 #menu li {
-  padding: 10px 0;
+  padding: 15px 0;
   color: white;
 }
 
