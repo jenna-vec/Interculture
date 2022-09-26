@@ -224,10 +224,13 @@
 #menu
 {
   width: fit-content;
-  margin-top: 1em;
-  padding: 1em;
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,0.25536151960784315) 0%, rgba(255,255,255,0.07889093137254899) 100%);
+  margin-top: 1.5em;
+  padding: 1em 2em;
+  box-shadow: rgb(255 255 255 / 25%) 0px 50px 49px -20px inset, 
+              rgb(255 255 255 / 23%) 0px 30px 49px -30px inset, 
+              rgb(255 255 255 / 25%) 0px -2px 6px 0px inset;
+  background-image: url(img/full-background.png);
+  background-size: cover;
   border: 1pt solid white;
   border-radius: 0.4em;
   text-align: end;
