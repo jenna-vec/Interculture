@@ -242,7 +242,38 @@
 
 
 
+/* ABOUT PAGE */
 
+.about {
+  padding: 6em 0;
+  display: flex;
+  justify-content: center;
+}
+
+.about-body {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2em;
+  align-items: center;
+}
+
+.portrait-div {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  grid-gap: 1em;
+}
+
+.portrait-box {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 2em;
+}
+
+.portrait {
+  height: 13em;
+}
 
 
 
@@ -334,5 +365,14 @@ footer {
   }
   .footer-div {
     width: 22vw;
+  }
+  .about {
+    flex-direction: row;
+  }
+  .portrait-div {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    grid-gap: 2em;
   }
 }
