@@ -371,8 +371,7 @@ footer {
   }
   .portrait-div {
     flex-direction: row;
-    display: flex;
-    align-items: center;
+    width: 60vw;
     grid-gap: 2em;
   }
 }
