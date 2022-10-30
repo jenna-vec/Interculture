@@ -258,22 +258,25 @@
   align-items: center;
 }
 
-.portrait-div {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  grid-gap: 1em;
+.portrait {
+  height: 6em;
 }
 
-.portrait-box {
+.portraits {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2em;
+  margin-top: 1em;
+}
+
+.bio {
   display: flex;
   flex-direction: row;
-  grid-gap: 2em;
+  grid-gap: 1em;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.portrait {
-  height: 13em;
-}
 
 
 
@@ -309,9 +312,9 @@
 
 /*Footer*/
 footer {
-  width: 100%;
   bottom: 0;
-  position: relative;
+  width: 100%;
+  position: fixed;
   margin: 3vh auto;
   display: flex;
   justify-content: center;
@@ -369,9 +372,15 @@ footer {
   .about {
     flex-direction: row;
   }
-  .portrait-div {
-    flex-direction: row;
+  .about-body {
     width: 60vw;
-    grid-gap: 2em;
+    max-width: 800px;
+    align-items: flex-start;
+  }
+  .bio {
+    width: 400px;
+  }
+  .portrait {
+    height: 7em;
   }
 }
