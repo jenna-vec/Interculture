@@ -341,7 +341,7 @@ small {
 footer {
   bottom: 0;
   width: 100%;
-  position: fixed;
+  position: relative;
   margin: 3vh auto;
   display: flex;
   justify-content: center;
