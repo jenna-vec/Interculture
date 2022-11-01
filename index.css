@@ -381,7 +381,10 @@ footer {
 
 /*larger sizes*/
 @media screen and (orientation: landscape) {
-  .footer-div {
+  body {
+    background-size: contain;
+  }
+   .footer-div {
     width: 20vw;
   }
   .menu {
