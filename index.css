@@ -113,7 +113,7 @@ small {
 
 
 
-/*Title*/
+/* Body */
 .body {
   display: flex;
   justify-content: center;
@@ -125,8 +125,13 @@ small {
 
 .title-name {
   width: 60vw;
+  margin: 5em auto 2em auto;
 }
 
+.latest {
+  width: 80vw;
+  margin: 0.5em 0 3em 0;
+}
 
 
 
@@ -390,6 +395,19 @@ footer {
   }
   .footer-div {
     width: 22vw;
+  }
+  .title-name {
+    width: 40vw;
+    margin: 2em auto 4em auto;
+  }
+  .body {
+    height: fit-content;
+    margin: 20vh auto 3em auto;
+  }
+  .latest {
+    width: 30vw;
+    max-width: 400px;
+    margin: 0.5em 0 7em 0;
   }
   .about {
     flex-direction: row;
