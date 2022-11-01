@@ -256,7 +256,7 @@ small {
   width: 80vw;
   display: flex;
   flex-direction: column;
-  grid-gap: 4em;
+  grid-gap: 2em;
   align-items: center;
   margin-bottom: 3em;
 }
@@ -289,6 +289,15 @@ small {
   height: 2px;
   width: 100%;
   margin: 3em 0 1em 0;
+}
+
+.listen-body {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 4em;
+  align-items: center;
+  margin-bottom: 3em;
 }
 
 
@@ -395,5 +404,10 @@ footer {
   }
   .portrait {
     height: 7em;
+  }
+  .listen-body {
+    width: 60vw;
+    max-width: 800px;
+    align-items: flex-start;
   }
 }
