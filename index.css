@@ -302,7 +302,17 @@ small {
   flex-direction: column;
   grid-gap: 4em;
   align-items: center;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
+}
+
+.listen-icons {
+  display: flex;
+  grid-gap: 2em;
+  align-items: center;
+}
+
+.listen-icons > a > i {
+  font-size: 2em !important;
 }
 
 
@@ -384,7 +394,7 @@ footer {
   body {
     background-size: contain;
   }
-   .footer-div {
+  .footer-div {
     width: 20vw;
   }
   .menu {
@@ -394,6 +404,7 @@ footer {
     display: none;
   }
   .subscribe {
+    height: 42vh;
     padding: 3em 10vw;
   }
   .footer-div {
