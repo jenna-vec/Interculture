@@ -344,6 +344,46 @@ small {
 
 
 
+/* PATH */
+
+.path-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-gap: 3em;
+  height: fit-content;
+  margin: 6em auto 5em auto;
+}
+
+.title-path {
+  width: 40vw;
+  margin-bottom: 1em;
+}
+
+.path-button {
+  height: 4em;
+  width: 20em;
+  border-radius: 10px;
+  box-shadow: rgb(95 123 118) 0px 7px 7px 0px;
+  background-color: #ffffff69;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.path-button > a {
+  font-size: 1.3em;
+  font-weight: 540;
+}
+
+.path-button:hover, .path-button:focus, .path-button:active {
+  box-shadow: rgb(255 255 255 / 35%) 0px 7px 29px 0px;
+  background-color: #ffffff00;
+}
+
+
+
 
 
 
