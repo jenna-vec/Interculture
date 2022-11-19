@@ -362,10 +362,10 @@ small {
 }
 
 .path-button {
-  height: 4em;
-  width: 20em;
+  height: 3em;
+  width: 14em;
   border-radius: 10px;
-  box-shadow: rgb(95 123 118) 0px 7px 7px 0px;
+  box-shadow: rgb(95 123 118) 0px 2px 4px 0px;
   background-color: #ffffff69;
   display: flex;
   align-items: center;
@@ -373,12 +373,12 @@ small {
 }
 
 .path-button > a {
-  font-size: 1.3em;
-  font-weight: 540;
+  font-size: 0.9em;
+  font-weight: 510;
 }
 
 .path-button:hover, .path-button:focus, .path-button:active {
-  box-shadow: rgb(255 255 255 / 35%) 0px 7px 29px 0px;
+  box-shadow: rgb(255 255 255 / 35%) 0px 7px 20px 0px;
   background-color: #ffffff00;
 }
 
