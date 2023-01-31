@@ -105,7 +105,7 @@ small {
 }
 
 .main-nav {
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 600;
 }
 
@@ -221,16 +221,14 @@ small {
   transform: rotate(-45deg) translate(7px, 11px);
 }
 
+
 #menu {
-  width: fit-content;
-  margin-top: 1.5em;
-  padding: 1.5em 3em 1.5em 3em;
-  box-shadow: rgb(255 255 255 / 25%) 0px 50px 49px -20px inset, rgb(255 255 255 / 23%) 0px 30px 49px -30px inset, rgb(255 255 255 / 25%) 0px -2px 6px 0px inset;
-  background-image: url(img/full-background.png);
-  background-size: 226%;
-  border: 1pt solid white;
-  border-radius: 0.4em;
-  text-align: end;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: -30px;
+  padding: 5em 3em 1.5em 7em;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
@@ -244,7 +242,7 @@ small {
 }
 
 #menuToggle input:checked ~ ul {
-  transform: translate(23%, 0);
+  transform: translate(22%, 0);
 }
 
 
@@ -315,6 +313,10 @@ small {
   font-size: 2em !important;
 }
 
+.stitcher {
+  width: 4em;
+}
+
 
 
 /* CONTACT PAGE */
@@ -365,6 +367,7 @@ small {
   height: 3em;
   width: 14em;
   border-radius: 10px;
+  border: 1px solid white;
   box-shadow: rgb(95 123 118) 0px 2px 4px 0px;
   background-color: #ffffff69;
   display: flex;
@@ -380,6 +383,15 @@ small {
 .path-button:hover, .path-button:focus, .path-button:active {
   box-shadow: rgb(255 255 255 / 35%) 0px 7px 20px 0px;
   background-color: #ffffff00;
+}
+
+.path-footer {
+  width: 30vw !important;
+  gap: 3vh !important;
+}
+
+.svg-tik-tok {
+  width: 1.5em !important;
 }
 
 
@@ -435,7 +447,7 @@ footer {
     background-size: contain;
   }
   .footer-div {
-    width: 20vw;
+    width: 31vw;
   }
   .menu {
     display: flex;
@@ -446,9 +458,6 @@ footer {
   .subscribe {
     height: 42vh;
     padding: 3em 10vw;
-  }
-  .footer-div {
-    width: 22vw;
   }
   .title-name {
     width: 40vw;
