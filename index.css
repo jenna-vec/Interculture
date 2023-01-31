@@ -391,7 +391,7 @@ small {
 }
 
 .svg-tik-tok {
-  width: 1.5em !important;
+  width: 1.15em !important;
 }
 
 
@@ -414,7 +414,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 2vh;
-  width: 52vw;
+  width: 61vw;
 }
 
 .socials {
@@ -447,7 +447,10 @@ footer {
     background-size: contain;
   }
   .footer-div {
-    width: 31vw;
+    width: 23vw;
+  }
+  .svg-tik-tok {
+    width: 1.1em !important;
   }
   .menu {
     display: flex;
